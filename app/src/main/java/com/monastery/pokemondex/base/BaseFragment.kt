@@ -8,6 +8,7 @@ import androidx.annotation.LayoutRes
 import androidx.fragment.app.Fragment
 import com.monastery.pokemondex.MainActivity
 
+
 abstract class BaseFragment(@LayoutRes private val rootLayoutId: Int): Fragment() {
 
     protected var mMainActivity: MainActivity? = null
